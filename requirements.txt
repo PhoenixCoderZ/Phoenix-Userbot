@@ -5,3 +5,5 @@ aiohttp
 functools
 datetime
 googletrans
+io
+gtts
