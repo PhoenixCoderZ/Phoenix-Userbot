@@ -2,8 +2,13 @@ pyrogram
 tgcrypto
 asyncio
 aiohttp
+wheel
 functools
 datetime
 googletrans
 io
 gtts
+ffmpeg-python
+pytgcalls
+wikipedia
+covid
