@@ -10,6 +10,3 @@ async def repo(client: Client, message: Message):
 • <a href="https://t.me/ToxicUb_Support">SUPPORT</a>
 • <a href="https://github.com/Khush-Botz/Toxic-Userbot">GITHUB</a>
 </b>''')
-
-
-utils.modules_help.update({'repo': '''repo - Userbot information''', 'repo module': 'Repo: repo'})
