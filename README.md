@@ -6,7 +6,7 @@
 ## [Support Group](https://t.me/ToxicUb_Support)
 
 # Deploy 
-- [Heroku](https://github.com/TeamUltroid/Ultroid#Deploy-to-Heroku)
+- [Heroku](https://github.com/Khush-Botz/Toxic-Userbot#Deploy-to-Heroku)
 
 ## Warning
 ### Don't Copy Our Bot It Will Lead To Ban Your Telegram Acc ⚠️
