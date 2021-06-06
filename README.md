@@ -6,7 +6,8 @@
 ## [Support Group](https://t.me/ToxicUb_Support)
 
 # Deploy 
-- [Heroku](https://github.com/Khush-Botz/Toxic-Userbot#Deploy-to-Heroku)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Warning
 ### Don't Copy Our Bot It Will Lead To Ban Your Telegram Acc ⚠️
