@@ -1,8 +1,11 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
+from functools import partial as cmd
+
+cmd = cmd(filters.command, filters.me, prefix=["."])
 
 
-@Client.on_message(filters.command('repo', ['.']) & filters.me)
+@Client.on_message(cmd("repo"))
 async def repo(client: Client, message: Message):
     await message.edit(f'''<b>---THE TOXIC USERBOT---
 • UserboT Is AlIVe
