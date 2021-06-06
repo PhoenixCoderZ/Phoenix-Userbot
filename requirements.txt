@@ -1,2 +1,1 @@
-Randwo kaam chalu karo
-Gand marao bsdk
+Python
