@@ -1,4 +1,7 @@
-googletrans
 pyrogram
 tgcrypto
 asyncio
+aiohttp
+functools
+datetime
+googletrans
