@@ -45,6 +45,11 @@ PRIVATE_GROUP_ID = Config.PRIVATE_GROUP_ID
 PM_PERMIT = Config.PM_PERMIT
 UB_VERSION = "v0.2"
 REMBG_API_KEY = Config.REMBG_API_KEY
+USERBOT_PREFIX = os.environ.get("CMD_HNDLR")
+
+from functools import partial as cmd
+
+cmd = cmd(filters.command, filters.me, prefix=USERBOT_PREFIX)
 
 HELP_COMMANDS = {}
 
