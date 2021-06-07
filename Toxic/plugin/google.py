@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from toxic import cmd
+from Toxic import cmd
 
 @Client.on_message(cmd(['google', 'g']))
 async def webshot(client: Client, message: Message):
