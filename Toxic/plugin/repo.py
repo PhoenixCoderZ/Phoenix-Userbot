@@ -1,8 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from functools import partial as cmd
-
-cmd = cmd(filters.command, filters.me, prefix=["."])
+from toxic import cmd
 
 
 @Client.on_message(cmd("repo"))
