@@ -9,5 +9,7 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+# Has Many Plugs For Fun
+
 ## Warning
 ### Don't Copy Our Bot It Will Lead To Ban Your Telegram Acc ⚠️
