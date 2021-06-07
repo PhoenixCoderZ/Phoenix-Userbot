@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from toxic import cmd
 
-@Client.on_message(cmd(['google', 'g'])
+@Client.on_message(cmd(['google', 'g']))
 async def webshot(client: Client, message: Message):
     user_request = ' '.join(message.command[1:])
 
