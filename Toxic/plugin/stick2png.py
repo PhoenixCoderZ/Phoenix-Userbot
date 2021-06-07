@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 import os
 import asyncio
-from toxic import cmd
+from Toxic import cmd
 
 
 @Client.on_message(cmd(['stick2png', 'stp', 'stoi']))
