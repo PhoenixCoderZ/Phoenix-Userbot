@@ -4,6 +4,7 @@ from asyncio import sleep
 from pyrogram import filters
 from pyrogram.errors import PeerIdInvalid
 from Bot import app
+from Toxic import cmd
 
 
 class AioHttp:
@@ -26,7 +27,7 @@ class AioHttp:
                 return await resp.read()
 
 
-@Client.on_message(filters.command("spb", ".") & filters.me)
+@Client.on_message(cmd("spb"))
 async def lookup(client, message):
     cmd = message.command
     if not message.reply_to_message and len(cmd) == 1:
