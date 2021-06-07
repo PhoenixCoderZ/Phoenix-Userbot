@@ -2,9 +2,10 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 import os
 import asyncio
+from toxic import cmd
 
 
-@Client.on_message(filters.command(['stick2png', 'stp'], ['.']) & filters.me)
+@Client.on_message(cmd(['stick2png', 'stp', 'stoi']))
 async def stick2png(client: Client, message: Message):
     if message.reply_to_message:
         reply = message.reply_to_message
