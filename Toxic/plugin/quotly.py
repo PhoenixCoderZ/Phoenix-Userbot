@@ -3,9 +3,10 @@ import random
 from asyncio import sleep
 from pyrogram import filters
 from pyrogram.types import Message
+from Toxic import cmd
 
 
-@Client.on_message(filters.me & filters.command(["q"], '.'))
+@Client.on_message(cmd(["q"]))
 async def quotly(_, message: Message):
     if not message.reply_to_message:
         await message.edit("Reply to any users text message")
