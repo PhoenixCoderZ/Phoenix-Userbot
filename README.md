@@ -12,4 +12,4 @@
 ### Has Many Plugs For Fun More Plugs Soon Request Plug at Support Group
 
 ## Warning
-### Don't Copy Our Bot It Will Lead To Ban Your Telegram Acc ⚠️
+<i>Don't Copy Our Bot It Will Lead To Ban Your Telegram Acc ⚠️
