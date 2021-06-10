@@ -50,6 +50,14 @@
             "description": "YOUR PVT GROUP ID",
             "value": ""
         }
+        "CMD_HANDLER": {
+            "description": "YOUR CMD HANDLER",
+            "value": ""
+        }
+        "RMBG_API_KEY": {
+            "description": "YOUR RMBG API KEY",
+            "value": ""
+        }
     },
     "buildpacks": [
         {
