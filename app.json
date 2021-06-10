@@ -1,1 +1,65 @@
-K
+{
+    "name": "Toxic",
+    "description": "A telegram Userbot.",
+    "logo": "https://telegra.ph/file/8c3fb98c66fac495afd1d.jpg",
+    "keywords": [
+        "telegram",
+        "Ub"
+    ],
+    "website": "https://t.me/",
+    "repository": "https://github.com/Khush_Botz",
+    "success_url": "https://telegram.dog/Khush_botz",
+    "env": {
+        "APP_ID": {
+            "description": "Your APP ID From my.telegram.org or @UseTgxBot",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your Api Hash, Get it from my.telegram.org or @UseTgxBot",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token, get it from @BotFather",
+            "value": ""
+        },
+        "STRING_SESSION": {
+            "description": "Your STRING SESSION",
+            "value": ""
+        },
+        "DATABSE_URL": {
+            "description": "Your DATABASE URL",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "YOUR ID",
+            "value": ""
+        }
+        "HEROKU_APP_NAME": {
+            "description": "YOUR HEROKU APP MAME",
+            "value": ""
+        }
+        "HEROKU_API_KEY": {
+            "description": "YOUR API KEY",
+            "value": ""
+        }
+        "OWNER_NAME": {
+            "description": "YOUR NAME",
+            "value": ""
+        }
+        "PRIVATE_GROUP_ID": {
+            "description": "YOUR PVT GROUP ID",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
