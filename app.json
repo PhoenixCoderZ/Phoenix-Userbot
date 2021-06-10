@@ -33,6 +33,7 @@
         "OWNER_ID": {
             "description": "YOUR ID",
             "value": ""
+
         }
         "HEROKU_APP_NAME": {
             "description": "YOUR HEROKU APP MAME",
@@ -45,6 +46,7 @@
         "OWNER_NAME": {
             "description": "YOUR NAME",
             "value": ""
+            "required": true,
         }
         "PRIVATE_GROUP_ID": {
             "description": "YOUR PVT GROUP ID",
