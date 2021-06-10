@@ -6,16 +6,16 @@
         "telegram",
         "Ub"
     ],
-    "website": "https://t.me/",
-    "repository": "https://github.com/Khush_Botz",
-    "success_url": "https://telegram.dog/Khush_botz",
+    "website": "https://t.me/TheToxicUb",
+    "repository": "https://github.com/Khush_Botz/Toxic-Userbot",
+    "success_url": "https://telegram.dog/Khush_botz/Toxic-Userbot",
     "env": {
         "APP_ID": {
-            "description": "Your APP ID From my.telegram.org or @UseTgxBot",
+            "description": "Your APP ID From my.telegram.org",
             "value": ""
         },
         "API_HASH": {
-            "description": "Your Api Hash, Get it from my.telegram.org or @UseTgxBot",
+            "description": "Your Api Hash, Get it from my.telegram.org",
             "value": ""
         },
         "BOT_TOKEN": {
@@ -23,7 +23,7 @@
             "value": ""
         },
         "STRING_SESSION": {
-            "description": "Your STRING SESSION",
+            "description": "Your STRING SESSION OF PYROGRAM",
             "value": ""
         },
         "DATABSE_URL": {
