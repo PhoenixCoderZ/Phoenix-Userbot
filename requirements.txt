@@ -6,7 +6,6 @@ aiohttp
 wheel
 datetime
 googletrans
-io
 gtts
 ffmpeg-python
 pytgcalls
