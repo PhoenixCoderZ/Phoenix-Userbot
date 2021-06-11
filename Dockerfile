@@ -1,7 +1,19 @@
-FROM python:3.9
-WORKDIR .
-ENV PYTHONUNBUFFERED=1
+FROM ubuntu:20.04
+
+
+RUN mkdir ./app
+RUN chmod 777 ./app
+WORKDIR /app
+
+RUN apt -qq update
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Kolkata
+
+
+RUN apt -qq install -y git python3 python3-pip
 COPY requirements.txt .
+
 COPY deploy.sh .
 RUN bash deploy.sh
 COPY . .
