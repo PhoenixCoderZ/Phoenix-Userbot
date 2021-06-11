@@ -6,9 +6,9 @@
         "telegram",
         "Ub"
     ],
-    "website": "https://t.me/TheToxicUb",
+    "website": "http://t.me/ToxicUb_Ot",
     "repository": "https://github.com/Khush_Botz/Toxic-Userbot",
-    "success_url": "https://telegram.dog/Khush_botz/Toxic-Userbot",
+    "success_url": "https://t.me/ToxicUb_Ot",
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org",
