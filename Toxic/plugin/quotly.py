@@ -1,13 +1,13 @@
 import asyncio
 import random
 from asyncio import sleep
-from pyrogram import filters
+from pyrogram import filters, Client
 from pyrogram.types import Message
 from Toxic import cmd
 
 
 @Client.on_message(cmd(["q"]))
-async def quotly(_, message: Message):
+async def quotly(client: Client, message: Message):
     if not message.reply_to_message:
         await message.edit("Reply to any users text message")
         return
@@ -15,9 +15,10 @@ async def quotly(_, message: Message):
     await message.reply_to_message.forward("@QuotLyBot")
     is_sticker = False
     progress = 0
+    msg_id = None
     while not is_sticker:
         try:
-            msg = await UserBot.get_history("@QuotLyBot", 1)
+            msg = await client.get_history("@QuotLyBot", 1)
             is_sticker = True
         except:
             await sleep(0.5)
@@ -29,7 +30,7 @@ async def quotly(_, message: Message):
     if msg_id := msg[0]['message_id']:
         await asyncio.gather(
             message.delete(),
-            UserBot.forward_messages(message.chat.id,"@QuotLyBot", msg_id)
+            client.forward_messages(message.chat.id,"@QuotLyBot", msg_id)
         )
 
 
