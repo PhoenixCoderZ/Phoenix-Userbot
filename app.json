@@ -10,6 +10,11 @@
     "repository": "https://github.com/Khush_Botz/Toxic-Userbot",
     "success_url": "https://t.me/ToxicUb_Ot",
     "env": {
+        "ENV": {
+            "description": "keep it default.",
+            "value": "Toxic",
+            "required": true
+        },
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org",
             "value": ""
