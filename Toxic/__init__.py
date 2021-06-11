@@ -1,6 +1,6 @@
 import os
 import importlib
-
+from pyrogram import filters, Client
 # the logging things
 import logging
 
