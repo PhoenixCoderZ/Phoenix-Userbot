@@ -28,12 +28,12 @@
         },
         "DATABSE_URL": {
             "description": "Your DATABASE URL",
-            "value": ""
-
+            "value": "",
+            "required": false
         },
         "OWNER_ID": {
             "description": "YOUR ID",
-            "value": ""
+            "value": "",
             "required": false
         },
         "HEROKU_APP_NAME": {
