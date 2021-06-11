@@ -13,7 +13,8 @@ ENV TZ=Asia/Kolkata
 
 RUN apt -qq install -y git python3 python3-pip wget
 COPY requirements.txt .
-
+#try
+RUN pip3 install --no-cache-dir -r requirements.txt
 COPY deploy.sh .
 RUN bash deploy.sh
 COPY . .
