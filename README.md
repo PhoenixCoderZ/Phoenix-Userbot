@@ -13,7 +13,7 @@
 
 # String Session 
 
-#### Via Telegram Bot [String Gen](https:t.me/KhushStringGen) 
+#### Via Telegram Bot [String Gen](https://t.me/KhushStringGen) 
 #### Via Repl.it Soon
 #### Via Termux Soon
 
