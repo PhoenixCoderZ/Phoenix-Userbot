@@ -4,7 +4,7 @@ from Toxic.plugins import ALL_PLUGINS
 from Toxic import APP_ID, API_HASH, STRING_SESSION, LOGGER, load_cmds
 
 
-class TelePyroBot(Client):
+class Toxic(Client):
     def __init__(self):
         name = self.__class__.__name__.lower()
 
