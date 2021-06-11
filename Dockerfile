@@ -11,7 +11,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Kolkata
 
 
-RUN apt -qq install -y git python3 python3-pip
+RUN apt -qq install -y git python3 python3-pip wget
 COPY requirements.txt .
 
 COPY deploy.sh .
