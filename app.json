@@ -29,11 +29,12 @@
         "DATABSE_URL": {
             "description": "Your DATABASE URL",
             "value": ""
+
         },
         "OWNER_ID": {
             "description": "YOUR ID",
             "value": ""
-
+            "required": false
         },
         "HEROKU_APP_NAME": {
             "description": "YOUR HEROKU APP MAME",
