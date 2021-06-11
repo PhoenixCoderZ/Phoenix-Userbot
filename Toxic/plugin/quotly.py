@@ -15,7 +15,6 @@ async def quotly(client: Client, message: Message):
     await message.reply_to_message.forward("@QuotLyBot")
     is_sticker = False
     progress = 0
-    msg_id = None
     while not is_sticker:
         try:
             msg = await client.get_history("@QuotLyBot", 1)
