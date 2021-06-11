@@ -30,4 +30,4 @@ class TelePyroBot(Client):
 
     async def stop(self, *args):
         await super().stop()
-        LOGGER.info("TelePyroBot stopped. Bye.")
+        LOGGER.info("THE Toxic Userbot stopped. Bye.")
