@@ -1,4 +1,9 @@
-from pyrogram import Client, __version__, filters
+import os
+try:
+    from pyrogram import Client, __version__, filters
+except:
+    os.system("pip3 install pyrogram")
+    from pyrogram import Client, __version__, filters
 from pyrogram.raw.all import layer
 from Toxic.plugins import ALL_PLUGINS
 from Toxic import APP_ID, API_HASH, STRING_SESSION, USERBOT_PREFIX, LOGGER, load_cmds
