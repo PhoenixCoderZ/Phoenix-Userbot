@@ -38,7 +38,7 @@ Thanks for deploying Toxic
 }
 
 _run_all () {
-    UPDATE
+    update_and_install_packages
     install_helper_packages
     pip3 install –upgrade pip
     pip3 install --no-cache-dir -r requirements.txt
