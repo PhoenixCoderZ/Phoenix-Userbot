@@ -1,6 +1,6 @@
 import os
 import importlib
-from pyrogram import filters, Client
+from Toxic.setclient import cmd
 # the logging things
 import logging
 
@@ -46,11 +46,6 @@ PM_PERMIT = Config.PM_PERMIT
 UB_VERSION = "v0.2"
 REMBG_API_KEY = Config.REMBG_API_KEY
 USERBOT_PREFIX = os.environ.get("CMD_HNDLR")
-
-from functools import partial as cmd
-
-cmd = cmd(filters.command, filters.me, prefix=USERBOT_PREFIX)
-
 HELP_COMMANDS = {}
 
 
