@@ -13,7 +13,10 @@
 
 # String Session 
 
-#### Via Telegram Bot [String Gen](http
+#### Via Telegram Bot [String Gen](https:t.me/KhushStringGen) 
+#### Via Repl.it Soon
+#### Via Termux Soon
+
 ### Has Many Plugs For Fun More Plugs Soon Request Plug at Support Group
 
 ## Warning
