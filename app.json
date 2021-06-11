@@ -34,28 +34,28 @@
             "description": "YOUR ID",
             "value": ""
 
-        }
+        },
         "HEROKU_APP_NAME": {
             "description": "YOUR HEROKU APP MAME",
             "value": ""
-        }
+        },
         "HEROKU_API_KEY": {
             "description": "YOUR API KEY",
             "value": ""
-        }
+        },
         "OWNER_NAME": {
             "description": "YOUR NAME",
-            "value": ""
-            "required": true,
-        }
+            "value": "",
+            "required": true
+        },
         "PRIVATE_GROUP_ID": {
             "description": "YOUR PVT GROUP ID",
             "value": ""
-        }
+        },
         "CMD_HANDLER": {
             "description": "YOUR CMD HANDLER",
             "value": ""
-        }
+        },
         "RMBG_API_KEY": {
             "description": "YOUR RMBG API KEY",
             "value": ""
@@ -71,5 +71,5 @@
             "quantity": 1,
             "size": "free"
         }
-    }
+    },
 }
