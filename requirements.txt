@@ -10,5 +10,5 @@ gtts
 ffmpeg-python
 pytgcalls
 wikipedia
-covid
 functools
+covid
