@@ -2,6 +2,7 @@ import os
 from pyrogram.raw.all import layer
 from Toxic.plugin import ALL_PLUGINS
 from Toxic import APP_ID, API_HASH, STRING_SESSION, USERBOT_PREFIX, LOGGER
+from pyrogram import Client
 
 class Toxic-Userbot(Client):
     def __init__(self):
