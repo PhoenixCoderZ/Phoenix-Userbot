@@ -1,15 +1,7 @@
 import os
-try:
-    from pyrogram import Client, __version__, filters
-except:
-    os.system("pip3 install pyrogram")
-    from pyrogram import Client, __version__, filters
 from pyrogram.raw.all import layer
 from Toxic.plugin import ALL_PLUGINS
 from Toxic import APP_ID, API_HASH, STRING_SESSION, USERBOT_PREFIX, LOGGER, load_cmds
-from functools import partial as cmd
-
-cmd = cmd(filters.command, filters.me, prefix=USERBOT_PREFIX)
 
 class Toxic(Client):
     def __init__(self):
