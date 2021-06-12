@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  worker: bash deploy.sh
+  worker: python3 -m Toxic
