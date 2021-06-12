@@ -1,6 +1,6 @@
 import os
 import importlib
-from Toxic.setclient import cmd
+
 # the logging things
 import logging
 
@@ -47,7 +47,7 @@ UB_VERSION = "v0.2"
 REMBG_API_KEY = Config.REMBG_API_KEY
 USERBOT_PREFIX = os.environ.get("CMD_HNDLR")
 HELP_COMMANDS = {}
-
+from Toxic.setclient import cmd
 
 def load_cmds(ALL_PLUGINS):
     for oof in ALL_PLUGINS:
