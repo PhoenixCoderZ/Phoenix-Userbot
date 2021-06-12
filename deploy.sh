@@ -46,4 +46,3 @@ _run_all () {
 }
 
 _run_all
-python3 -m Toxic
