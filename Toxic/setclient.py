@@ -5,7 +5,7 @@ except:
     os.system("pip3 install pyrogram")
     from pyrogram import Client, __version__, filters
 from pyrogram.raw.all import layer
-from Toxic.plugins import ALL_PLUGINS
+from Toxic.plugin import ALL_PLUGINS
 from Toxic import APP_ID, API_HASH, STRING_SESSION, USERBOT_PREFIX, LOGGER, load_cmds
 from functools import partial as cmd
 
@@ -17,7 +17,7 @@ class Toxic(Client):
 
         super().__init__(
             STRING_SESSION,
-            plugins=dict(root=f"{name}/plugins"),
+            plugins=dict(root=f"{name}/plugin"),
             workdir=f"{name}/session",
             api_id=APP_ID,
             api_hash=API_HASH,
