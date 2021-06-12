@@ -1,7 +1,7 @@
 import os
 from pyrogram.raw.all import layer
 from Toxic.plugin import ALL_PLUGINS
-from Toxic import APP_ID, API_HASH, STRING_SESSION, USERBOT_PREFIX, LOGGER, load_cmds
+from Toxic import APP_ID, API_HASH, STRING_SESSION, USERBOT_PREFIX, LOGGER
 
 class Toxic(Client):
     def __init__(self):
@@ -17,8 +17,6 @@ class Toxic(Client):
 
     async def start(self):
         await super().start()
-        result = load_cmds(ALL_PLUGINS)
-        LOGGER.info(result)
 
         me = await self.get_me()
         LOGGER.info(
