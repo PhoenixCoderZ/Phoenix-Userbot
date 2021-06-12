@@ -1,2 +1,2 @@
 worker: python3 -m Toxic
-ps:scale worker=1
+ps: scale worker=1
