@@ -11,4 +11,4 @@ ffmpeg-python
 pytgcalls
 wikipedia
 covid
-functools
+
