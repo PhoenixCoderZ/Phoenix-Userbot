@@ -33,7 +33,7 @@ Toxic. Deployed Successfully
 Thanks for deploying Toxic
 (C) 2020-2021 by TeamToxic
 =++---------------------------------------------++=
-                       Greetings from dev team :)
+                       Greetings from Toxic team :)
     "
 }
 
