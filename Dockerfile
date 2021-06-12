@@ -1,5 +1,7 @@
+
 FROM ubuntu:20.04
 
+#start
 
 RUN mkdir ./app
 RUN chmod 777 ./app
