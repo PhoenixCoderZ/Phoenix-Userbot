@@ -18,12 +18,9 @@ class Toxic(Client):
 
     async def start(self):
         await super().start()
-
-        me = await self.get_me()
         LOGGER.info(
             f"THE Toxic Userbot based on Pyrogram V{__version__} "
             f"(Layer {layer}) started...\n"
-            f"Hey {me.first_name}!"
         )
 
     async def stop(self, *args):
