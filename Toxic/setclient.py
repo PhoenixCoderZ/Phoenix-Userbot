@@ -2,7 +2,7 @@ import os
 from pyrogram.raw.all import layer
 from Toxic.plugin import ALL_PLUGINS
 from Toxic import APP_ID, API_HASH, STRING_SESSION, USERBOT_PREFIX, LOGGER
-from pyrogram import Client
+from pyrogram import Client, __version__
 
 class Toxic(Client):
     def __init__(self):
@@ -21,7 +21,7 @@ class Toxic(Client):
 
         me = await self.get_me()
         LOGGER.info(
-            f"THE Toxic Userbot based on Pyrogram v{__version__} "
+            f"THE Toxic Userbot based on Pyrogram V{__version__} "
             f"(Layer {layer}) started...\n"
             f"Hey {me.first_name}!"
         )
