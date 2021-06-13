@@ -1,5 +1,5 @@
-from .setclient import Toxic-Userbot
+from .setclient import Toxic
 
 
 if __name__ == "__main__":
-    Toxic-Userbot().run()
+    Toxic().run()
