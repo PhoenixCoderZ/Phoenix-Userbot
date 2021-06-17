@@ -39,7 +39,7 @@
         "OWNER_ID": {
             "description": "YOUR ID",
             "value": "",
-            "required": false
+            "required": true
         },
         "HEROKU_APP_NAME": {
             "description": "YOUR HEROKU APP MAME",
@@ -65,6 +65,7 @@
         "RMBG_API_KEY": {
             "description": "YOUR RMBG API KEY",
             "value": ""
+            "required": false
         }
     },
     "stack": "container"
