@@ -1,18 +1,18 @@
 {
-    "name": "Toxic",
-    "description": "A telegram Userbot.",
+    "name": "Phoenix",
+    "description": "Telegram Best Userbot.",
     "logo": "https://telegra.ph/file/8c3fb98c66fac495afd1d.jpg",
     "keywords": [
         "telegram",
         "Ub"
     ],
-    "website": "http://t.me/ToxicUb_Ot",
-    "repository": "https://github.com/Khush_Botz/Toxic-Userbot",
-    "success_url": "https://t.me/ToxicUb_Ot",
+    "website": "http://t.me/ThePhoenix_Ub",
+    "repository": "https://github.com/Khush_Botz/Phoenix-Userbot",
+    "success_url": "https://t.me/ThePhoenix_Ub",
     "env": {
         "ENV": {
             "description": "keep it default.",
-            "value": "Toxic",
+            "value": "Phoenix",
             "required": true
         },
         "APP_ID": {
