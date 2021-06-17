@@ -64,8 +64,7 @@
         },
         "RMBG_API_KEY": {
             "description": "YOUR RMBG API KEY",
-            "value": ""
-            "required": false
+            "value": "ANYTHING OR FROM REMOVE.BG"
         }
     },
     "stack": "container"
