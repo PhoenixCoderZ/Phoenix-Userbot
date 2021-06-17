@@ -1,7 +1,7 @@
 echo "
 *********** STARTING DEPLOY ***********
-Toxic UB -Base Pyrogram
-© 2021-2022 by TeamToxic
+Phoenix UB -Base Pyrogram
+© 2021-2022 by TeamPhoenix
 ***************************************
 "
 update_and_install_packages () {
@@ -28,12 +28,12 @@ ech_final () {
 =++---------------------------------------------++=
 Toxic. Deployed Successfully
  ***************************
- * |T| |O| |X| |I| |C| *
+ * |PHOENIX| *
  ******************* v1.0 ** 
-Thanks for deploying Toxic
-(C) 2020-2021 by TeamToxic
+Thanks for deploying PHOENIX
+(C) 2020-2021 by PHOENIX
 =++---------------------------------------------++=
-                       Greetings from Toxic team :)
+                       Greetings from Phoenix :)
     "
 }
 
