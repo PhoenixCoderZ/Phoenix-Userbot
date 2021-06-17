@@ -1,4 +1,4 @@
-# <b><i> Toxic-Userbot
+# <b><i> PHOENIX USERBOT
 ### It Is A Pluggable Userbot Of Telegram In Pyrogram 
 
 ## [Support Channel](https://t.me/TheToxicUB)
@@ -9,7 +9,7 @@
 
 # Deploy 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Khush-Botz/Toxic-Userbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Khush-Botz/Phoenix-Userbot)
 
 # String Session 
 
