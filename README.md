@@ -10,7 +10,7 @@
 
 # Deploy 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Khush-Botz/Phoenix-Userbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PhoenixCoderZ/Phoenix-Userbot)
 
 # String Session 
 
