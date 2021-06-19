@@ -20,4 +20,4 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 COPY deploy.sh .
 RUN bash deploy.sh
 COPY . .
-CMD ["python3", "-m", "Toxic"]
+CMD ["python3", "-m", "Phoenix"]
