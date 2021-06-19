@@ -2,12 +2,6 @@
 ![PHOENIX LOGO](https://telegra.ph/file/6b52567c50855d798adbe.jpg)
 ### It Is A Pluggable Userbot Of Telegram In Pyrogram 
 
-## [Support Channel](https://t.me/ThePhoenix_Ub)
-
-## [Support Group](https://t.me/PhoenixUb_Support)
-
-## [Off Topic](https://t.me/PhoenixUb_Ot)
-
 # Deploy 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PhoenixCoderZ/Phoenix-Userbot)
