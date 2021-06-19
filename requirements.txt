@@ -16,4 +16,4 @@ ffmpeg-python
 pytgcalls
 wikipedia
 covid
-
+sys
