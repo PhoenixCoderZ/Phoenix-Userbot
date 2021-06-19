@@ -12,9 +12,9 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 # Configuration Things
 if bool(os.environ.get("ENV", False)):
-    from Toxic.sample_config import Config
+    from Phoenix.sample_config import Config
 else:
-    from Toxic.config import Development as Config
+    from Phoenix.config import Development as Config
 
 
 LOGGER = logging.getLogger(__name__)
@@ -29,8 +29,8 @@ TMP_DOWNLOAD_DIRECTORY = Config.TMP_DOWNLOAD_DIRECTORY
 if not os.path.exists(TMP_DOWNLOAD_DIRECTORY):
     os.makedirs(TMP_DOWNLOAD_DIRECTORY)
 
-if not os.path.exists("Toxic/cache"):
-    os.makedirs("Toxic/cache")
+if not os.path.exists("Phoenix/cache"):
+    os.makedirs("Phoenix/cache")
 
 HEROKU_API_KEY = Config.HEROKU_API_KEY
 OFFICIAL_UPSTREAM_REPO = Config.OFFICIAL_UPSTREAM_REPO
