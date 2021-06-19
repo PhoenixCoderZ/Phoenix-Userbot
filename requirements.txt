@@ -1,4 +1,9 @@
 pyrogram
+random
+os
+aiofiles
+selenium
+urllib
 multidict
 tgcrypto
 asyncio
