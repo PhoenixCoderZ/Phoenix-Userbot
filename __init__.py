@@ -1,6 +1,6 @@
 import os
 import importlib
-from Toxic.setclient import cmd
+from Phoenix.setclient import cmd
 # the logging things
 import logging
 
@@ -53,7 +53,7 @@ def load_cmds(ALL_PLUGINS):
     for oof in ALL_PLUGINS:
         if oof.lower() == "help":
             continue
-        imported_module = importlib.import_module("Toxic.plugins." + oof)
+        imported_module = importlib.import_module("Phoenix.plugins." + oof)
         if not hasattr(imported_module, "__PLUGIN__"):
             imported_module.__PLUGIN__ = imported_module.__name__
 
