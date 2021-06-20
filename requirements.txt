@@ -1,6 +1,4 @@
 pyrogram
-random
-os
 aiofiles
 selenium
 urllib
