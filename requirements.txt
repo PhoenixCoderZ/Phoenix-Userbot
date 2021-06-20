@@ -1,7 +1,6 @@
 pyrogram
 aiofiles
 selenium
-urllib
 multidict
 tgcrypto
 asyncio
