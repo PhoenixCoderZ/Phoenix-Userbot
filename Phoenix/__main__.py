@@ -1,5 +1,3 @@
-__all__ = [ '__main__' 'run' ]
-
-from Phoenix.setclient import Phoenix, Message
+from Phoenix import Phoenix
 if name == "__main__":
-    Phoenix().run()
+   Phoenix.run()
