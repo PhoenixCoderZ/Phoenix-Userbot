@@ -4,8 +4,8 @@ from time import time
 
 from git import Repo
 from git.exc import GitCommandError
-
-from Phoenix import Config, Message, pool, Phoenix
+from Phoenix.core import Message
+from Phoenix import Config, pool, Phoenix
 
 LOG = Phoenix.getLogger(__name__)
 CHANNEL = Phoenix.getCLogger(__name__)
