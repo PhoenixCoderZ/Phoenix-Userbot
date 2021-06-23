@@ -15,3 +15,4 @@ pytgcalls
 wikipedia
 covid
 sys
+prettytable
