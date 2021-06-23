@@ -26,7 +26,7 @@ ech_final () {
     echo "
     
 =++---------------------------------------------++=
-Toxic. Deployed Successfully
+Phoenix Deployed Successfully
  *******************************
 
  * |P| |H| |O| |E| |N| |I| |X| *
