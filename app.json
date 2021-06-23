@@ -34,7 +34,7 @@
         "DATABSE_URL": {
             "description": "Your DATABASE URL",
             "value": "",
-            "required": false
+            "required": true
         },
         "OWNER_ID": {
             "description": "YOUR ID",
