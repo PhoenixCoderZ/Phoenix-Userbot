@@ -1,3 +1,6 @@
+#Original Plugin Don't Change Anything 
+#Credits of Team Phoinex 
+
 from pyrogram import filters
 from pyrogram.types import Message
 from Phoenix import Phoenix
