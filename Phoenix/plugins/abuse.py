@@ -8,6 +8,11 @@ async def bsdk(_, message: Message):
    await message.edit(k)
 
 @Phoenix.on_message(filters.command('abuse2', '.') & filters.me)
-async def bsdk(_, message: Message):
+async def abuse2(_, message: Message):
    k = """Main roz teri behno ki banjar chut me apna lawda daalke andar haryali lata tha magar aaj unke ke baare me sunke mujhe bhut afsos huwa ki unko ab bada loudha chahye ab mera balatkaaari lawda lagataar 4 ghante tk apne muh me kon rakhega vo teri behne hi thi jo apni kaali magar rasilli chut mere saamne khol deti aur zameen pe naagin ki tarah rengne lgti thi jaise ki kisine unki chut pe naariyal tod diya ho vo b bada wala mumbai ka naariyal..apni chennal maa ko b nhi bhej rahe mere paas to main kaixe tum logo se vaada karu ki main teri maa chodd dungaw ab agar tun sach me chahta hai ki main tum dono k mc ki chut me dhammal karu to mera lawda apne muh me rakho aur kaho Sameer hamare sage papa hain Aur agar tb b tjhe apni maa ki kaali chut mere saamne nahi rakhi to tumhare ghar me ghuske tumhari maa ka balatkaar kar dungaw jaixe delhi me huwa tha ab teri chudi hui kuttiyo ki tarah apni gaand hilaate hue mere aage kalapna mt ni to tumhari fatti bhoxdi me 100 ched karunga! TERI Maa ke bhosdi mein condom reh gye tere ghar pe teri bhen ke room se meri underwear bhi dena aur bra bhi dho lena bhosde wale! Chintaaa ka chita chita bc teri maa ka bhosda mene phada tha isliye tu peda hua bhencho madarcho"""
    await message.edit(k)
+
+@Phoenix.on_message(filters.command('ha', '.') & filters.me)
+async def ha(_, message: Message):
+   ha = """तेरी बहन अभी तक सोई नही जो मुझे फिर याद कर लिया इतना पसन्द आया मेरा लोडा तेरी बहन और बेटी को जो अब फिर चुदने को तैयार हो गई तो ऐसा कर तेरी 👩‍👧बहन की चूत के 💅बाल साफ कर तेरी माँ 👩‍❤️‍👩को मेरे लोडे की मालिश के लिए भेज और तेरी 👩‍👩‍👧बेटी को मेरे टट्टे चूसने के लिए बोल तेरी बहन की👄 चूत 👅लाल करने अभी आया💪💪 🤞🤞🤞🤞"""
+   await message.edit(ha)
