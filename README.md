@@ -8,6 +8,9 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PhoenixCoderZ/Phoenix-Userbot)
 
+### API ID AND API HASH 
+   </p><p align="centre"><a href="https://my.telegram.org"> <img src="https://img.shields.io/badge/via_WEBSITE-APP_ID API_HASH-blue?style=for-the-badge&logo=telegram" alt="APIHASH" /></a> 
+  
 # String Session 
 
 #### Via Telegram Bot [String Gen](https://t.me/KhushStringGen) 
