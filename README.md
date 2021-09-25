@@ -25,4 +25,6 @@
 
 ### Has Many Plugs For Fun More Plugs Soon Request Plug at Support Group
 
-<b> Our Official Support Group Link-[Click Here](https://t.me/PhoenixUb_Ot) </b>
+# SUPPORT CHAT
+
+<a href="https://telegram.me/PhoenixUb_Ot" target="_blank"><img src="https://img.shields.io/badge/Join-Support%20Chat-green.svg?style=for-the-badge&logo=Telegram"></a>
