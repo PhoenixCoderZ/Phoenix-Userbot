@@ -28,7 +28,7 @@
             "value": ""
         },
         "STRING_SESSION": {
-            "description": "Your STRING SESSION OF PYROGRAM",
+            "description": "Your STRING SESSION",
             "value": ""
         },
         "DATABSE_URL": {
@@ -42,7 +42,7 @@
             "required": true
         },
         "HEROKU_APP_NAME": {
-            "description": "YOUR HEROKU APP MAME",
+            "description": "YOUR HEROKU APP NAME",
             "value": ""
         },
         "HEROKU_API_KEY": {
@@ -55,7 +55,7 @@
             "required": true
         },
         "PRIVATE_GROUP_ID": {
-            "description": "YOUR PVT GROUP ID",
+            "description": "YOUR PRIVATE GROUP ID",
             "value": ""
         },
         "CMD_HANDLER": {
