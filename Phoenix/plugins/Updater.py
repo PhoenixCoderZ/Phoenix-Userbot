@@ -71,7 +71,7 @@ async def check_update(message: Message):
     if not (pull_from_repo or push_to_heroku):
         if out:
             change_log = (
-                f"**New UPDATE available for [{branch}]:\n\n📄 CHANGELOG 📄**\n\n"
+                f"**New UPDATE available for [{branch}]:\n\n✘ CHANGELOG ✘**\n\n"
             )
             await message.edit_or_send_as_file(
                 change_log + out, disable_web_page_preview=True
